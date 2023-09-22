@@ -12,6 +12,7 @@ public class Salary01 {
         numAbsence = input.nextInt();
         totalSalary=(numAttendance*salary)- (numAbsence*salaryDeduction);
         System.out.println("Total salary: "+totalSalary);
+        System.out.println("tes");
 
     }
     
