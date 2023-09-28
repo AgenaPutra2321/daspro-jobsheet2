@@ -8,10 +8,9 @@ public class Selection101 {
         System.out.print("Input a number = ");
         int number = input01.nextInt();
 
-        if (number%2 == 0) {
-            System.out.println(number+" is an even number!");
-        }else{
-            System.out.println(number+" is an ood number");
+         String result = (number% 2 == 0) ? ( number+ " is an even number!" ) : (number + " is an odd numbber");
+         System.out.println(result);
+
 
             
         }
@@ -19,4 +18,4 @@ public class Selection101 {
 
     }
     
-}
+
