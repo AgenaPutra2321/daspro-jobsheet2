@@ -1,4 +1,3 @@
-package minggu5;
 import java.util.Scanner;
 
 public class Selection201 {
@@ -19,8 +18,25 @@ public class Selection201 {
 
         float total = (FinalExam * 0.4F ) + (midexam * 0.3F ) + (quiz * 0.1F ) + (assingment * 0.2F );
         String message = total < 65 ? "Retake" : "Pass";
+        if (total > 80 && total <= 100) {
+            message = "A";
+        } else if (total > 73 && total <= 80) {
+            message = "B+";
+        } else if (total > 65 && total <= 73) {
+            message = "B";
+        } else if (total > 60 && total <= 65) {
+            message = "C+";
+        } else if (total > 50 && total <= 60) {
+            message = "C";
+        } else if (total > 39 && total <= 50) {
+            message = "D";
+        } else {
+            message = "E";
+        }
+ 
+        System.out.println("Final Grade = " + message);
         System.out.println("Final Grade = " + total + "and the decission is " + message);
-        
     }
-    
 }
+
+
