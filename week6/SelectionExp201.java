@@ -13,7 +13,7 @@ public class SelectionExp201 {
 
         totalangle = angle1+angle2+angle3;
 
-        if(totalangle == 180) {}
+        if(totalangle == 180) 
             if(angle1==90 || angle2==90 || angle3==90)
                 System.out.println("Right triangle");
             else 
