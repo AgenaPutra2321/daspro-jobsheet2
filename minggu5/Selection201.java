@@ -36,6 +36,7 @@ public class Selection201 {
  
         System.out.println("Final Grade = " + message);
         System.out.println("Final Grade = " + total + "and the decission is " + message);
+        input01.close();
     }
 }
 
