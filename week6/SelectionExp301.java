@@ -32,6 +32,8 @@ public class SelectionExp301 {
        System.out.println("Nett salary ="+netSalary);
     }else
         System.out.println("Invalid category!");
+       
+     input01.close();
 
 
    }
