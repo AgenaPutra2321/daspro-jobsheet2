@@ -26,6 +26,7 @@ public class SelectionExp201 {
                 } else {
                     System.out.println("Not a triangle");
                 }
+                input01.close();
             }
         }
         
