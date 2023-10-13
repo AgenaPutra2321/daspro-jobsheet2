@@ -14,14 +14,14 @@ public class ForMultiples01 {
             if(i%multiple == 0 ){
                 sum = sum + i;
                 counter++;
-                System.out.print(i+"-");
-
-                
+               // System.out.print(i+"-");
             }
 
-        }
+        }   
         System.out.printf("There are %d numbers that are multiple of %d in range 1 to 50.\n",counter,multiple);
         System.out.printf("The sum from all multiples of %d in range 1 s.d. 50 is %d.\n",multiple,sum);
+        double average = sum/counter;
+        System.out.println("The average is "+average);
 
      }
 }
