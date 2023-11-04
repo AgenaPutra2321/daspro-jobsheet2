@@ -28,5 +28,7 @@ public class DoWhileLeaveEntitlement01 {
                 }
             }
         } while (confirmation.equalsIgnoreCase("y")); // Loop until the user enters "t".
+
+       sc.close();
     }
 }
