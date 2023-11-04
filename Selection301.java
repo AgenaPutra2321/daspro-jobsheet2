@@ -33,5 +33,6 @@ public class Selection301 {
                 break;
 
         }
-}
+        input01.close();
+    }
 }
