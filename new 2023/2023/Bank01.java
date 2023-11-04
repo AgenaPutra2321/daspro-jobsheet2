@@ -21,6 +21,6 @@ public class Bank01 {
 
 
    
-
+        sc.close();
     } 
 }
