@@ -23,5 +23,6 @@ public class ForMultiples01 {
         double average = sum/counter;
         System.out.println("The average is "+average);
 
+        input01.close();
      }
 }
