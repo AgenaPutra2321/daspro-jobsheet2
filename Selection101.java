@@ -15,6 +15,7 @@ public class Selection101 {
       // String result = (number% 2 == 0) ? ( number+ " is an even number!" ) : (number + " is an odd numbber");
        // System.out.println(result);
 } 
+input01.close();
 }
 }
 
