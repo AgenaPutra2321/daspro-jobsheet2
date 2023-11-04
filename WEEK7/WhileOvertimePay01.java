@@ -41,6 +41,8 @@ public class WhileOvertimePay01 {
         }
         System.out.print("Total of Overtime Pay = "+totalOvertimePay);
 
+        input01.close();
+
     }
     
 }
