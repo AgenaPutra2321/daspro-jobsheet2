@@ -24,8 +24,8 @@ public class Cinema01 {
             System.out.println("Lenght of row: " + rowAudience.length);
 
        System.out.println("Audience in the row 3: ");
-       for (int i = 0 ; i < audience[2].length;i++){
-            System.out.println(audience[2][1]);
+       for (String i : audience[2] ){
+            System.out.println(i);
        }
 
         
