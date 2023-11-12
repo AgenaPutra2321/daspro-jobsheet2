@@ -6,7 +6,7 @@ public class CinemaWithScanner01 {
         Scanner sc = new Scanner(System.in);
 
         int row, column;
-        String name, next;
+        String name;
         String[][] audience = new String[4][2];
 
         while (true) {
@@ -65,13 +65,6 @@ public class CinemaWithScanner01 {
 
                 default:
                     System.out.println("Invalid choice. Please enter a valid menu option.");
-            }
-
-            System.out.print("Are there any other audiences to be added? (y/n): ");
-            next = sc.nextLine();
-
-            if (next.equalsIgnoreCase("n")) {
-                break;
             }
         }
     }
