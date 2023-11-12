@@ -41,7 +41,6 @@ public class CinemaWithScanner01 {
                     System.out.println("Warning: The seat is already occupied. Please choose another seat.");
                      continue; // Restart the loop
                     }
-
                     audience[row - 1][column - 1] = name;
                     break;
 
@@ -49,14 +48,14 @@ public class CinemaWithScanner01 {
                     // Show audience list
                     for (String[] rowAudience : audience) {
                         for (String audienceName : rowAudience) {
-                            if (audienceName == null) {
+                             if (audienceName == null) {
                                 System.out.print("*** ");
                             } else {
                                 System.out.print(audienceName + " ");
                             }
-                        }
-                        System.out.println();
                     }
+                    System.out.println();
+                }
                     break;
 
                 case 3:
@@ -80,5 +79,7 @@ public class CinemaWithScanner01 {
     // Function to check if the seat is within the valid range
     private static boolean isValidSeat(int row, int column, String[][] audience) {
         return row >= 1 && row <= audience.length && column >= 1 && column <= audience[0].length;
+
+
     }
 }
