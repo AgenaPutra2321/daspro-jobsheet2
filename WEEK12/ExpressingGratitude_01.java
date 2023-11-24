@@ -19,8 +19,9 @@ public class ExpressingGratitude_01 {
 
     public static void sayAdditionalGreetings(String greeting) {
         System.out.println(greeting);
-    }
-
+    
+        input.close();
+    }    
     public static void main(String[] args) {
         String name = getGreetingRecipient();
         sayThankYou();
@@ -29,6 +30,6 @@ public class ExpressingGratitude_01 {
         sayAdditionalGreetings(addGreeting);
 
         // Close the Scanner when you're done using it
-        input.close();
+       input.close();
     }
 }
