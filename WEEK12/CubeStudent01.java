@@ -1,13 +1,22 @@
 package WEEK12;
 
 public class CubeStudent01 {
-    public static double calculateArea(double side) {
-        return 6 * side * side;
+    static double calculateArea(double side) {
+        double area = 0;
+        area = 6 * side * side;
+        return area;
+    }
+    static double calculateVolume(double side) {
+        double volume = 0 ;
+        volume = side * side * side;
+        return volume;
+    }
+    public static void main(String[] args) {
+        double area = calculateArea(10);
+        double volume = calculateVolume(10);
     }
 
-    public static double calculateVolume(double side) {
-        return side * side * side;
-    }
+    
 }
        
 
