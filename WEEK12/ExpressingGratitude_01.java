@@ -23,7 +23,7 @@ public class ExpressingGratitude_01 {
         input.close();
     }    
     public static void main(String[] args) {
-        String name = getGreetingRecipient();
+       // String name = getGreetingRecipient();
         sayThankYou();
 
         String addGreeting = "Wish you all the best for your future!";
