@@ -2,7 +2,7 @@ package WEEK13;
 
 import java.util.Scanner;
 
-public class ProvirRecursive01 {
+public class ProvitRecursive01 {
     static double calculateProfit(double balance, int period) {
         if(period==0)
             return balance;
