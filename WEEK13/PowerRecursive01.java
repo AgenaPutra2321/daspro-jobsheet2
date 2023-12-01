@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class PowerRecursive01 {
     static int calculatePower(int base, int pow) {
-        if (pow==0)
+        if (pow==0) 
             return 1;
         else 
             System.out.print(base + "x");
